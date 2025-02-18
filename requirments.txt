@@ -1,0 +1,5 @@
+assemblyai[extras]
+ollama
+elevenlabs
+portaudio
+mpv

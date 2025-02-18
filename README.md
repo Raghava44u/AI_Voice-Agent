@@ -12,19 +12,19 @@ This project enables real-time speech-to-text transcription using AssemblyAI, ge
 
 ---
 
-## 🛠️ Setup Instructions  
+##  Setup Instructions  
 
 ### Step 1: Sign Up & Install Dependencies  
 
-#### ✅ Get API Keys  
+####  Get API Keys  
 - **AssemblyAI (for speech-to-text):** [Sign up for a free API key](https://www.assemblyai.com/?utm_source=youtube&utm_medium=referral&utm_campaign=yt_smit_28)  
 - **ElevenLabs (for text-to-speech):** [Sign up for an account](https://elevenlabs.io/)  
 
-#### ✅ Install Ollama  
+####  Install Ollama  
 DeepSeek R1 is accessed via Ollama. Install Ollama from:  
 🔗 **[Download Ollama](https://ollama.com/)**  
 
-#### ✅ Install PortAudio (Required for real-time transcription)  
+####  Install PortAudio (Required for real-time transcription)  
 - **Debian/Ubuntu:**  
   ```bash
   apt install portaudio19-dev
@@ -34,7 +34,7 @@ DeepSeek R1 is accessed via Ollama. Install Ollama from:
   ```bash
   brew install portaudio
   ```
-####✅ Install Python Libraries
+#### Install Python Libraries
 
 Before running the script, install the required dependencies:
 
@@ -43,7 +43,7 @@ pip install "assemblyai[extras]"
 pip install ollama
 pip install elevenlabs
 ```
-✅ (MacOS Only) Install MPV for Audio Streaming
+ (MacOS Only) Install MPV for Audio Streaming
 
 ```bash
 brew install mpv
@@ -56,7 +56,7 @@ ollama pull deepseek-r1:7b
 ```
 
 
-### 🎯 Running the Script
+###  Running the Script
 
 Once all dependencies are installed and the model is downloaded, simply run:
 
