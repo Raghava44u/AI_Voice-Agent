@@ -5,9 +5,9 @@ import ollama
 
 class AIVoiceAgent:
     def __init__(self):
-        aai.settings.api_key = "133b641b21b74c81ae05c13a28d37a42"
+        aai.settings.api_key = "AsemplyAI-APIKEY"
         self.client = ElevenLabs(
-            api_key = "sk_3c10e23b8a0fe7fcb7795e15999fcd7b9bdf3c5de48cb70d"
+            api_key = "ElevenLabs-Apikey"
         )
 
         self.transcriber = None
